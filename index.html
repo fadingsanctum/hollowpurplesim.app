@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hollow Purple | Absolute Limit</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="overlay-scanline"></div>
+    <div class="container">
+        <div class="header-ui">
+            <h1 class="title">HOLLOW PURPLE SIMULATOR</h1>
+            <p class="subtitle">HOLLOW PURPLE</p>
+        </div>
+
+        <div class="ui-layer">
+            <button id="activateBtn" class="btn-primary">INITIALIZE</button>
+            <button id="resetBtn" class="btn-secondary">RESET</button>
+        </div>
+
+        <div class="canvas-area">
+            <img src="images/gojo-hand.png" id="hand" class="hidden">
+            
+            <div id="redBall" class="hidden"></div>
+            <div id="blueBall" class="hidden"></div>
+            <div id="purpleBall" class="hidden"></div>
+            <div id="mergeFlash" class="hidden"></div>
+
+            <img src="images/earth.png" id="earth" class="hidden">
+            <div id="crater" class="hidden"></div>
+            <div id="shockwave" class="hidden"></div>
+        </div>
+
+        <div id="stats" class="hidden"></div>
+
+        <audio id="chantAudio" src="audio/gojo-chant.mp3"></audio>
+    </div>
+    <script src="script.js"></script>
+<div id="watermark">
+<footer>
+ ©SOUL--AMEEN
+</footer>
+</div>
+
+</body>
+</html>
